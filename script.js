@@ -30,6 +30,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const link3 = document.getElementById('link3');
     link3.addEventListener('click', (event) => {
         event.preventDefault();
-        document.body.style.backgroundColor = 'gray';
+        document.body.style.backgroundColor = 'blue';
     });
 });
